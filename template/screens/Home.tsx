@@ -1,5 +1,5 @@
 import React, {useEffect} from "react";
-import {Text, View} from "react-native";
+import {StyleSheet, Text, View} from "react-native";
 import useUsers from "../network/react-query/auth/login/users";
 import useCreateUser from "../network/react-query/auth/login/createUser";
 import { useTranslation } from 'react-i18next';
@@ -16,9 +16,16 @@ const Home = () => {
 
     return (
         <View>
-            <Text>{t("common:welcome")}</Text>
+            <Text style={styles.text}>{t("common:test")}</Text>
+            <Text style={styles.text}>{JSON.stringify(data)}</Text>
         </View>
     );
 };
+
+const styles=StyleSheet.create({
+    text:{
+        color:"red"
+    }
+})
 
 export default Home;
