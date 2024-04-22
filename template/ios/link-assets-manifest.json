@@ -1,4 +1,9 @@
 {
   "migIndex": 1,
-  "data": []
+  "data": [
+    {
+      "path": "assets/fonts/icomoon.ttf",
+      "sha1": "4420fa5a8a2ba39f89fdbec37ba6a8980f0dfcf5"
+    }
+  ]
 }

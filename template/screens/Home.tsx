@@ -2,12 +2,13 @@ import React, {useEffect} from "react";
 import {StyleSheet, Text, View} from "react-native";
 import useUsers from "../network/react-query/auth/login/users";
 import useCreateUser from "../network/react-query/auth/login/createUser";
-import { useTranslation } from 'react-i18next';
+import {useTranslation} from 'react-i18next';
+import FontIcon from "../components/FontIcon/FontIcon"
 
 const Home = () => {
     const {data, isPending} = useUsers(1)
     const {mutate} = useCreateUser()
-    const { t } = useTranslation();
+    const {t} = useTranslation();
 
 
     useEffect(() => {
@@ -18,13 +19,15 @@ const Home = () => {
         <View>
             <Text style={styles.text}>{t("common:test")}</Text>
             <Text style={styles.text}>{JSON.stringify(data)}</Text>
+            <FontIcon name={"happy"} color={"#002080"} size={24}/>
+            <FontIcon name={"happy"} color={"red"} size={48}/>
         </View>
     );
 };
 
-const styles=StyleSheet.create({
-    text:{
-        color:"red"
+const styles = StyleSheet.create({
+    text: {
+        color: "red"
     }
 })
 
