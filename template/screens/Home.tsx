@@ -19,8 +19,8 @@ const Home = () => {
         <View>
             <Text style={styles.text}>{t("common:test")}</Text>
             <Text style={styles.text}>{JSON.stringify(data)}</Text>
-            <FontIcon name={"happy"} color={"#002080"} size={24}/>
-            <FontIcon name={"happy"} color={"red"} size={48}/>
+            <FontIcon name={"icon"} color={"#002080"} size={24}/>
+            <FontIcon name={"icon"} color={"red"} size={48}/>
         </View>
     );
 };

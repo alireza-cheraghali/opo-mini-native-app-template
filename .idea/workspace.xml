@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a160cc9-a19b-4281-8126-dc467621a814" name="Changes" comment="" />
+    <list default="true" id="7a160cc9-a19b-4281-8126-dc467621a814" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +16,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2fTHDeGsRYgdCCr4kfKieCj6m37" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -23,7 +28,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TestIcon" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../fintech/ap-wallet-neobank-management" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -32,6 +37,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/template/assets/fonts" />
+      <recent name="$PROJECT_DIR$/template/components" />
       <recent name="$PROJECT_DIR$/template" />
     </key>
   </component>
@@ -44,6 +51,8 @@
       <option name="presentableId" value="Default" />
       <updated>1713818028902</updated>
       <workItem from="1713818030062" duration="1044000" />
+      <workItem from="1713820603504" duration="674000" />
+      <workItem from="1713857840181" duration="167000" />
     </task>
     <servers />
   </component>
