@@ -1,12 +1,20 @@
-import {createIconSetFromIcoMoon} from 'react-native-vector-icons';
-import icoMoonConfig from './selection.json';
+import IcoMoon from "react-icomoon";
+import {Path, Svg} from "react-native-svg";
+import iconSet from "./selection.json";
 import {TIconProps} from "./fontIcon.types";
 
-const Icon = createIconSetFromIcoMoon(icoMoonConfig);
 
 const FontIcon: TIconProps = ({name, color, size}) => {
     return (
-        <Icon name={name} color={color} size={size}/>
+        <IcoMoon
+            native
+            SvgComponent={Svg}
+            PathComponent={Path}
+            iconSet={iconSet}
+            icon={name}
+            color={color}
+            size={size}
+        />
     )
 }
 
