@@ -2,6 +2,7 @@ apply plugin: "com.android.application"
 apply plugin: "org.jetbrains.kotlin.android"
 apply plugin: "com.facebook.react"
 
+import org.apache.tools.ant.taskdefs.condition.Os
 
 /**
  * This is the configuration block to customize your React Native Android app.
@@ -75,9 +76,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.testal"
+    namespace "com.projectname"
     defaultConfig {
-        applicationId "com.testal"
+        applicationId "com.projectname"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
