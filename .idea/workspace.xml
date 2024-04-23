@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a160cc9-a19b-4281-8126-dc467621a814" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/screens/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/template/screens/Home.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +54,7 @@
       <workItem from="1713818030062" duration="1044000" />
       <workItem from="1713820603504" duration="674000" />
       <workItem from="1713857840181" duration="167000" />
+      <workItem from="1713872599352" duration="1309000" />
     </task>
     <servers />
   </component>
