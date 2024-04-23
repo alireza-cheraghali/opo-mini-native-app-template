@@ -4,14 +4,14 @@ import iconSet from "./selection.json";
 import {TIconProps} from "./fontIcon.types";
 
 
-const FontIcon: TIconProps = ({icon, color, size}) => {
+const FontIcon: TIconProps = ({name, color, size}) => {
     return (
         <IcoMoon
             native
             SvgComponent={Svg}
             PathComponent={Path}
             iconSet={iconSet}
-            icon={icon}
+            icon={name}
             color={color}
             size={size}
         />
